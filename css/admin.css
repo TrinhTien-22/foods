@@ -1,0 +1,76 @@
+/* 
+    theme : food order web
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.wrapper {
+    
+    padding: 2%;
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+.form{
+    margin-right: 6px;
+}
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF6666;
+}
+.menu ul li a:hover{
+    color: #FF3366;
+}
+/* CSS for main-content */
+.main-content{
+    background-color:#EEEEEE;
+    padding: 1% 0;
+}
+.col4{
+    width: 23%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+.description{
+    position: relative;
+    top: -40px;
+}
+.error{
+    color: red;
+}
+.login{
+    border: 1px solid grey;
+    width: 30%;
+    margin: 5% auto;
+    padding: 2%;
+    border-radius: 8px;
+}
+/* CSS for Footer */
+.footer{
+    background-color: #FF6666;
+    color:white;
+} 
